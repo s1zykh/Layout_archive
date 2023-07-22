@@ -1,0 +1,42 @@
+.waiting {
+  padding: 85px 0;
+  background-color: #efefef;
+  height: 600px;
+}
+.waiting__title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+}
+.waiting__line {
+  margin: 18px auto;
+  width: 220px;
+  height: 5px;
+  background: #f9bf3b;
+}
+.waiting__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 45px;
+}
+.waiting__images {
+  display: flex;
+  justify-content: space-between;
+}
+.waiting__images-item {
+  text-align: center;
+}
+.waiting__images-item-text {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  color: #4a4a4a;
+}

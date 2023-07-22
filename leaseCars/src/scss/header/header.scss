@@ -1,0 +1,21 @@
+.header{
+    background-color: #151515;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+}
+
+.menu {
+    &__list {
+        display: flex;
+        gap: 35px;
+        &-item {
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.optimization {
+  position: relative;
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+  margin-left: 391px;
+  color: #299cbd;
+  font-family: "Roboto - Black";
+  font-size: 29px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+  margin-top: 25px;
+  margin-left: 391px;
+  color: #4a4a4a;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+  font-family: "Roboto Light";
+  font-weight: 300;
+}
+.optimization .optimization_text span {
+  font-family: "Roboto - Bold";
+  font-weight: 700;
+}
+
+.optimization .optimization_img {
+  position: absolute;
+  top: 10px;
+  left: -50px;
+  z-index: -1;
+}

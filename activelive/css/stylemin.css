@@ -1,0 +1,97 @@
+body {
+  font-family: Roboto, "sans-serif";
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.header {
+  position: relative;
+  background: url("../assets/img/bc.png") no-repeat center top;
+  padding: 50px 0 200px 0;
+}
+.header__logo {
+  position: relative;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.header__logo:hover::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 58px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: gray;
+}
+.header__logo span {
+  color: #626fe4;
+  font-weight: bold;
+}
+.header__text-main {
+  margin: 200px 0 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px;
+}
+.header__text-second {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  gap: 50px;
+}
+.header__menu-item {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.header__menu-item:hover::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 48px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: gray;
+}
+
+.line {
+  position: absolute;
+  height: 2px;
+  width: 1140px;
+  background-color: gray;
+  left: auto;
+  top: 110px;
+}
+
+.btn {
+  display: block;
+  margin: 50px auto 0 auto;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #e84545;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #e84545;
+}/*# sourceMappingURL=stylemin.css.map */

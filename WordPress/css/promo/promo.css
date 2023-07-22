@@ -1,0 +1,67 @@
+.promo {
+  text-align: center;
+  padding: 25px 0;
+  height: 800px;
+  background: url("../../img/bg/main_bg.jpg") center center / cover no-repeat;
+}
+.promo__logo {
+  margin-bottom: 50px;
+}
+.promo__logo-text {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.promo__texts-upper-orange {
+  margin: 0;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 41px;
+  color: #f9bf3b;
+}
+.promo__texts-upper-white-text {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 80px;
+  color: #ffffff;
+}
+.promo__texts-lower {
+  margin-top: 25px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.promo__texts-lower span {
+  color: #f9bf3b;
+  font-weight: 900;
+}
+.promo__button {
+  margin-top: 70px;
+  background-color: #2798b9;
+  border: 0;
+  width: 300px;
+  height: 70px;
+  font-family: "RobotoCondensed";
+  font-size: 21px;
+  color: #ffffff;
+}
+.promo__down {
+  margin-top: 70px;
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.promo__down-text {
+  margin-bottom: 10px;
+}
